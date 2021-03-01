@@ -105,3 +105,48 @@ Run and check what it does.
 9. Somewhere aroun line 47 add an event listener to the button's event click:
 
 ```js
+submitButton.addEventListener("click", onFetchDog);
+```
+
+`onFetchDog` is an optional function name, use any name(identifier) you like
+
+10. Anywhere above line 46 add a function definition for your event handler, e.g.:
+
+```js
+const onFetchDog = e => {
+
+}
+```
+
+11. Print something into the console from function `onFetchDog` or whatever you called is:
+
+```js
+const onFetchDog = e => {
+    console.log("here we will be getting dogs");
+}
+```
+
+12. You probably need to add [`event.preventDefault()`](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
+```js
+const onFetchDog = e => {
+    e.preventDefault();
+    console.log("here");
+}
+```
+
+13. Now let's write our fetch function. To start:
+
+```js
+const onFetchDog = e => {
+    e.preventDefault();
+    console.log("here");
+    fetch('https://dog.ceo/api/breeds/image/random')
+        .then(res => res.json())
+        .then(res => console.log(res));
+}
+```
+
+14. Now you should see the result of your fetch in Inspect Element.
+
+15. Make some function calls and finish your site. If you want your own Dogle site I am afraid you need your own repo and to re-write my code.
