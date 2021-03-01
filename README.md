@@ -77,6 +77,15 @@ Fetch uses Promises. Oh no, more terms! Let's learn about Promises with the Free
 git clone git@github.com:missKatiaPunter/fetch-intro.git
 ```
 
-Alterbatively you can download the zipped folder:
+Alternatively, you can download the zipped folder:
 
 ![Zipped folder](zipped_download.png)
+
+2. Navigate into the cloned folder:
+
+```bash
+cd fetch-intro
+```
+
+3. Open it in VSCode or an editor of your choice
+
