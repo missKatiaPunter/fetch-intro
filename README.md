@@ -25,8 +25,8 @@ However, some organisations allow frontend developers use their backend services
 ## Explore DOG CEO API
 
 API sounds like a kind of beer.
-Software developers often order API at in pubs.
-And bartenders respond was a 404: resource not found.
+Software developers often order API in pubs.
+Bartenders respond was a 404: resource not found.
 
 [DOG CEO](https://dog.ceo/dog-api/) is an example of an open API.
 
