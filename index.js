@@ -1,4 +1,3 @@
-const form = document.getElementById("form");
 const submitButton = document.getElementById("submit-button");
 const sectionResults = document.getElementById("section-results");
 const header = document.querySelector(".header");
@@ -44,6 +43,5 @@ const clearContents = function(container) {
     }
 };
 
-
-// submitButton.addEventListener("click", headerShrink);
+submitButton.addEventListener("click", headerShrink);
 
