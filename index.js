@@ -43,6 +43,5 @@ const clearContents = function(container) {
     }
 };
 
-
 //submitButton.addEventListener("click", headerShrink);
 
