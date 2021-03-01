@@ -89,3 +89,16 @@ cd fetch-intro
 
 3. Open it in VSCode or an editor of your choice
 
+4. Have a look at the code. Comment what you can understand and prepare questions
+
+5. What does [line 30 in index.html](https://github.com/missKatiaPunter/fetch-intro/blob/main/index.html#L30) do?
+Make sure to comment it.
+
+6. What about [line 2 in index.js](https://github.com/missKatiaPunter/fetch-intro/blob/main/index.js#L2)?
+Make sure to comment it.
+
+7. Run the project on your local. You may want to get the Live Server extension for this.
+
+8. Uncomment [line 48 in index.js](https://github.com/missKatiaPunter/fetch-intro/blob/main/index.js#L48).
+Run and check what it does.
+
