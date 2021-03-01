@@ -1,6 +1,6 @@
 # APIs and how the Internet works
 
-![Front and back](/frontback.png)
+![Front and back](/frontback.jpg)
 ## Explore DOG CEO API
 
 API sounds like a kind of beer.
