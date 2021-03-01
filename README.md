@@ -16,6 +16,10 @@ and the data that is permanently stored on the server.
 
 The frontend code is also stored on the server but it is interpreted by the browser, the client.
 
+The backend deals with things such as customer and product data stored in the database.
+
+However, some organisations allow frontend developers use their backend services and this is called open APIs.
+
 ![Front and back](/frontback.jpg)
 
 ## Explore DOG CEO API
@@ -24,9 +28,23 @@ API sounds like a kind of beer.
 Software developers often order API at in pubs.
 And bartenders respond was a 404: resource not found.
 
+[DOG CEO](https://dog.ceo/dog-api/) is an example of an open API.
+
+What you can do is make a website.
+Write some frontend code (HTML, CSS, JS) and use the services of [DOG CEO](https://dog.ceo).
+
+The services they provide are: pictures of dogs of different breeds.
+
+Before you go and have a look at how [DOG CEO](https://dog.ceo) deliver pictures of dogs to frontenders
+make sure you have a browser extension called JSON Viewer.
+
+Here is one:
 
 [Get a json viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related)
 
+Now let us have a look at the list of all dog breeds from Dog CEO:
+
+[All breeds](https://dog.ceo/api/breeds/list/all)
 ## Promises, promises
 
 [Write some promises with Free Code Camp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-a-javascript-promise)
