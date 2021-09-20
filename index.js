@@ -44,17 +44,5 @@ const clearContents = function(container) {
     }
 };
 
-const onDogFetch = e => {
-    e.preventDefault();
-    clearContents(sectionResults);
-    fetch("https://dog.ceo/api/breeds/image/random")
-        .then(res => res.json())
-        .then(res => {
-            displayResults(res);
-        });
-}
-
-submitButton.addEventListener("click", onDogFetch);
-
-submitButton.addEventListener("click", headerShrink);
+// submitButton.addEventListener("click", headerShrink);
 
