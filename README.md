@@ -150,3 +150,5 @@ const onFetchDog = e => {
 14. Now you should see the result of your fetch in Inspect Element.
 
 15. Make some function calls and finish your site. If you want your own Dogle site I am afraid you need your own repo and to re-write my code.
+
+16. In pairs make sure one site works, and add some comments adn/or change some CSS.
